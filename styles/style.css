@@ -309,4 +309,75 @@ body{
     color: #ffffff60;
 }
 
+/* media query for mobile devices */
+@media only screen and (max-width: 576px){
+    .navbar {
+        flex-direction: column;
+        padding-bottom: 360px;
+    }
+    .navbar-logo {
+        flex-direction: column;
+    }
+    .navbar-logo img {
+        padding-top: 30px;
+        margin-right: 0;
+    }
+    .navbar-menu ul {
+        flex-direction: column;
+    }
+    .navbar-menu ul li {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .banner-content {
+        flex-direction: column;
+    }
+    .banner{
+        background-image: none;
+    }
+    .banner-text{
+        background-image: url(../images/banner-bg.png);
+        background-repeat: no-repeat;
+        padding: 200px;
+    }
+    .online-games-img {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .online-games-img figcaption {
+        text-align: center;
+    }
+    .images-container img{
+        margin-left: 540px;
+    }
+    .overlay {
+        left: 540px;
+    }
+    .play-instantly {
+        flex-direction: column;
+    }
+    .play-instantly-text {
+        padding-right: 0;
+    }
+    .play-instantly-text h3 {
+        text-align: center;
+    }
+    .play-instantly-text p {
+        text-align: center;
+    }
+    .play-instantly-img {
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+    .play-instantly-img2 {
+        left: 120px;
+        top: 4650px;
+    }
+    .games {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer {
+        width: fit-content;
+    }
+}
 
