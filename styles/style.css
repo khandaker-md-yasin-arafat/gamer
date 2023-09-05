@@ -1,0 +1,65 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800;900&display=swap');
+
+/* common styles and utilities */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* header styles */
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+.navbar-logo img{
+    margin-right: 20px;
+}
+.navbar-logo h1 a{
+    font-size: 45px;
+    color: #000000;
+}
+.navbar-logo span{
+    color: #FF42A5;
+}
+.navbar-menu ul{
+    display: flex;
+    align-items: center;
+}
+.navbar-menu ul li{
+    margin-left: 30px;
+}
+.navbar-menu ul li a{
+    font-weight: 700;
+    color: #3C354F;
+    
+}
+.navbar-menu button{
+    padding: 15px 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+}
+.navbar-menu i{
+    margin-left: 10px;
+}
+.fa-youtube{
+    color: red;
+}
