@@ -135,6 +135,9 @@ body{
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 120px;
 }
+.online-games-img img:hover{
+    background-color: #000000;
+}
 .online-games-img figcaption{
     padding-top: 24px;
     color: #534C64;
@@ -172,6 +175,35 @@ body{
     left: 765px;
     top: 2025px;
 }
+
+/* games part styles */
+.games{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 30px;
+}
+.single-game{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: #f9f9f9;
+    border-radius: 50px;
+    color: #0B0223;
+    transition: 0.3s;
+}
+.single-game:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+}
+.single-game img{
+    padding-right: 16px;
+}
+.single-game p{
+    font-weight: 700; 
+}
+
 
 /* footer styles */
 .footer{
