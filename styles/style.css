@@ -63,3 +63,51 @@ body{
 .fa-youtube{
     color: red;
 }
+
+/* banner styles */
+.banner{
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text h3{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.banner-text h1{
+    font-size: 100px;
+    background: linear-gradient(to top, #A554E1 0%, #DC4CC2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.banner-text ul li{
+    margin-top: 15px;
+}
+.sign-in-btn{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #FF42A5;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.sign-in-btn a{
+    color: #ffffff;
+}
+.go-rogue-btn{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #4EC5F7;
+    text-transform: uppercase;
+}
+.go-rogue-btn a{
+    color: #ffffff;
+}
+
